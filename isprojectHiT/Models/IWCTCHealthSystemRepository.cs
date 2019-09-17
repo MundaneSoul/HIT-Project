@@ -8,5 +8,7 @@ namespace isprojectHiT.Models
     public interface IWCTCHealthSystemRepository
     {
         IQueryable<Ethnicity> Ethnicities { get; }
+        IQueryable<Gender> Genders { get; }
+        IQueryable<Discharge> Discharges { get; }
     }
 }

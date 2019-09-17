@@ -14,5 +14,8 @@ namespace isprojectHiT.Models
         }
 
         public IQueryable<Ethnicity> Ethnicities => context.Ethnicity;
+        public IQueryable<Gender> Genders => context.Gender;
+
+        public IQueryable<Discharge> Discharges => context.Discharge;
     }
 }

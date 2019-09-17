@@ -19,6 +19,10 @@ namespace isprojectHiT.Controllers
         }
 
         public IActionResult Ethnicity() => View(repository.Ethnicities);
+
+        public IActionResult Gender() => View(repository.Genders);
+
+        public IActionResult Discharge() => View(repository.Discharges);
         /*
                 public IActionResult Privacy()
                 {
